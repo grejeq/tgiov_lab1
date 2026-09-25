@@ -7,7 +7,7 @@ app = FastAPI(title="Lab 1")
 def get_root():
     return {
         "status": "success",
-        "message": "Лабораторная работа №1 успешно развернута в Render!",
+        "message": "Лабораторная работа №1 успешно развернута в vercel!",
         "service": "PaaS Web Service",
         "timestamp": datetime.utcnow().isoformat()
     }
